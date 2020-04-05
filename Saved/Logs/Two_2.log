@@ -682,7 +682,10 @@ Script Stack (0 frames):
 [2020.04.05-11.24.11:091][608]SourceControl: Commited [master ae7f343] Init.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 [2020.04.05-11.25.58:549][906]SourceControl: fatal: F:/Applications/UnrealEngine/UE_4.24/Engine/Content: 'F:/Applications/UnrealEngine/UE_4.24/Engine/Content' is outside repository
@@ -691,6 +694,9 @@ Script Stack (0 frames):
 [2020.04.05-11.26.14:854][593]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
 [2020.04.05-11.26.14:854][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
