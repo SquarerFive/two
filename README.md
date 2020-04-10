@@ -16,6 +16,6 @@ Aiming for a playable build in April 2021. Getting it done.
 ## Licensing 
 * The project itself is placed under the MIT license. You may use it however you like. 
 
-* BUT any marketplace assets (including UE4 free assets -eg : animStarterPack) are not available on this repository as they belong to Epic Games. 
+* BUT any marketplace assets (including UE4 free assets -eg : animStarterPack) are not available on this repository as they belong to Epic Games (and other authors too!). 
 
 * However if you want to help with development - join my [Discord Server](https:://discord.gg/tnVGGRm) (if you have UE4 installed and a Quixel license, I can send you the UE4 animation assets and megascans).
