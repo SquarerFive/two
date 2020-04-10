@@ -12,3 +12,10 @@ Aiming for a playable build in April 2021. Getting it done.
   - Folder for Quixel Megascans. note - no megascans will be pushed to the repo. only a manifest file (todo:)
 * ThirdParty/
   - Any UE4 marketplace assets will be here. Will not be pushed to the repo. However if any assets are used the manifest file will need to be updated.
+
+## Licensing 
+* The project itself is placed under the MIT license. You may use it however you like. 
+
+* BUT any marketplace assets (including UE4 free assets -eg : animStarterPack) are not available on this repository as they belong to Epic Games. 
+
+* However if you want to help with development - join my [Discord Server](https:://discord.gg/tnVGGRm) (if you have UE4 installed and a Quixel license, I can send you the UE4 animation assets and megascans).
