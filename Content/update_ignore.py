@@ -1,7 +1,8 @@
 dirnames_to_include = [
     'AnimStarterPack',
     'Megascans',
-    'ThirdParty'
+    'ThirdParty',
+    'MSPresets'
     ]
 
 import os
