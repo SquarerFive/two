@@ -1,6 +1,3 @@
-[submodule "."]
-	path = .
-	url = https://github.com/SquarerFive/twoassets.git
 [submodule "twoassets"]
-	path = twoassets
+	path = Content
 	url = https://github.com/SquarerFive/twoassets.git
