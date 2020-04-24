@@ -1,0 +1,39 @@
+{% extends "index.html" %}
+{% block content %}
+    {% load static %}
+
+    
+    <div class="container-sm align-middle border bg-light text-dark" style="margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width:500px;padding:0;">
+        <div class="bg-dark text-light">
+            <p class="p-2" >ADD SERVER</p>
+        </div>
+        <form action="/add-server/" method="POST" class="p-3 m-0 ">
+          {% csrf_token %}
+          {{ form.non_field_errors }}
+            <div class="form-group ">
+              <label for="exampleInputEmail1">Server Name</label>
+              <!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> -->
+              {{form.server_name}}
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Server Address</label>
+              <!--<input type="password" class="form-control" id="exampleInputPassword1">-->
+              {{form.server_address}}
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Server Max Players</label>
+              <!--<input type="password" class="form-control" id="exampleInputPassword1">-->
+              {{form.server_max_players}}
+            </div>
+            
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1"> 
+              <label class="form-check-label" for="exampleCheck1">Private</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Server</button>
+        </form>
+    </div>
+
+
+{% endblock %}

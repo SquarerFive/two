@@ -19,3 +19,4 @@ Binaries/
 .vs/
 *.sln
 DerivedDataCache/
+Plugins/AdvancedSessions/

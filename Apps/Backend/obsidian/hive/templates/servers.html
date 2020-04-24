@@ -1,0 +1,38 @@
+{% extends "index.html" %}
+{% block content %}
+    {% load static %}
+    
+    
+    <div class="container align-middle border rounded bg-dark" style="margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width:980px;padding:0;">
+      <div class="bg-dark text-light">
+        <h6 class="p-2" >SERVERS</h6>
+    </div>
+      <table class="table table-striped table-dark">
+        <thead class='thead-dark'>
+          <tr>
+            <th scope="col">Server Name</th>
+            <th scope="col">Players</th>
+            <th scope="col">Max Players</th>
+            <th scope="col">Gamemode</th>
+            <th scope="col">Join</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          {% for server in data.servers.servers %}
+          <tr>
+            <th><a href="#">{{server.server_name}}</a></th>
+            <td>{{server.server_players}}</td>
+            <td>{{server.server_max_players}}</td>
+            <td>{{server.server_gamemode_name}}</td>
+            <td>
+            <button class="btn btn-secondary"  , onclick="joinServer('{{ server.server_address }}');">Join</button>
+          </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+        </table>
+    </div>
+
+
+{% endblock %}
