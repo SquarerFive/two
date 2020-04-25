@@ -7,7 +7,7 @@ sio.attach(app)
 
 async def index(request):
     """Serve the client-side application."""
-    print("Recieve Join")
+    print("Receive Join")
     #return web.Response(text="Hello")
     #with open('index.html') as f:
     #data = await request.json()
