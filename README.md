@@ -3,7 +3,13 @@
 *Open Sourced FPS game inspired by Battlefield 2*
 
 This project superseds bf2redux.
-Aiming for a playable build in April 2021. Getting it done.
+
+## About
+"TWO" is a project intended to replicate much of the gameplay from Battlefield 2 in a modern game engine. I am aiming for a playable build in April 2021. This project will be developed in Unreal Engine 4, later moving to Unreal Engine 5.
+
+
+
+
 
 ## Directory Structure
 * Blueprints/
