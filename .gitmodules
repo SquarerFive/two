@@ -1,3 +1,6 @@
 [submodule "twoassets"]
 	path = twoassets
 	url = https://github.com/SquarerFive/twoassets.git
+[submodule "Plugins/socketio-client-ue4"]
+	path = Plugins/socketio-client-ue4
+	url = https://github.com/getnamo/socketio-client-ue4.git
