@@ -17,9 +17,11 @@ def for_context(context):
             try:
                 f1 =os.path.getctime(p) > os.path.getctime(d)
                 if (f1):
+                    os.makedirs(os.path.dirname(d), exist_ok=True)
                     print(f"[MODIFIED]: {p}", "New Path:", d)
                     copyfile(p,d)
             except:
+                os.makedirs(os.path.dirname(d), exist_ok=True)
                 print(f"[NEW]: {p}", d)
                 copyfile(p, d)
            
