@@ -1,6 +1,6 @@
 import os
 
-context = ['Megascans', 'ThirdParty']
+context = ['Megascans', 'ThirdParty', 'AnimStarterPack']
 from shutil import copyfile
 def for_context(context):
     for root, dirs, files in os.walk(f"../Content/{context}", topdown=False):
