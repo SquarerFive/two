@@ -20,3 +20,6 @@ Binaries/
 *.sln
 DerivedDataCache/
 Plugins/AdvancedSessions/
+*.pyc
+Apps/Backend/obsidian/db.sqlite3
+Apps/Backend/obsidian/hive/migrations/
