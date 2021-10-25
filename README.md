@@ -1,4 +1,6 @@
-![two project logo](https://github.com/SquarerFive/two/blob/master/Media/Logo/TwoDark.png)
+![two project logo](https://github.com/SquarerFive/two/blob/master/_Media/Logo/TwoDark.png)
+
+## This repo is archived! Development has been moved onto a private repository. 
 
 *Open Sourced FPS game inspired by Battlefield 2*
 
